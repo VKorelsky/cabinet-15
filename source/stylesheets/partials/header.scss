@@ -1,0 +1,18 @@
+#header {
+   position: relative;
+   z-index: 99;
+   background-color: transparent;
+
+   padding-top: 1.3rem;
+
+   a {
+     text-decoration: none;
+     font-family: 'open sans';
+     color: black;
+   }
+
+   nav {
+     display: flex;
+     justify-content: space-around;
+   }
+}
