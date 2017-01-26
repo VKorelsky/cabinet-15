@@ -1,13 +1,21 @@
 .banner-frame {
   background-size: cover;
+  background-position: 50%;
   position: relative;
-
 }
 
 .banner {
   min-height: 100vh;
 }
 
-.sub-lead {
+.home-1 {
+  min-height: 100vh;
+  padding-top: 3%;
 
+  h1 {
+    text-align: center;
+  }
 }
+
+
+// utilities

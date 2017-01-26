@@ -10,7 +10,19 @@
        font-family: 'open sans';
        color: white;
        align-self: center;
+       text-align: center;
        white-space: nowrap;
+       transition: all 0.3s ease;
+
+       &:hover {
+        color: #D3D3D3;
+       }
+
       }
+
+    #header-lead {
+      font-size: 230%;
+      color: white !important;
+    }
 
 }
