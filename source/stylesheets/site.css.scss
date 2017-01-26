@@ -1,6 +1,7 @@
 // global import css file, quick fixes here
 
 @charset "utf-8";
+@import "variables";
 @import "pages/index";
 @import "partials/index";
 @import "vendor/index";
@@ -10,4 +11,18 @@
 
 .lead {
   font-size: 3.5rem;
+}
+
+// flex utilities
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-space-between {
+  justify-content: space-between;
 }

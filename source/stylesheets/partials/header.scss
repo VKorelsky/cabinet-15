@@ -1,18 +1,16 @@
 #header {
-   position: relative;
-   z-index: 99;
-   background-color: transparent;
+   position: absolute;
+   z-index: 999;
+   padding-top: 2%;
+   width: 100%;
 
-   padding-top: 1.3rem;
 
-   a {
-     text-decoration: none;
-     font-family: 'open sans';
-     color: black;
-   }
+     a {
+       text-decoration: none;
+       font-family: 'open sans';
+       color: white;
+       align-self: center;
+       white-space: nowrap;
+      }
 
-   nav {
-     display: flex;
-     justify-content: space-around;
-   }
 }
