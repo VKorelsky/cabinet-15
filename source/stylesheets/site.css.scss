@@ -8,9 +8,24 @@
 
 
 // text utilities
-
 .lead {
   font-size: 3.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 // flex utilities

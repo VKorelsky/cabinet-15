@@ -11,5 +11,49 @@ title: Homepage
 </div>
 
 <div class="home-1">
-    <h1>Bienvenue sur mon site</h1>
+  <div class="container">
+    <h3 class="text-center">
+        Thaïs Ceballos Korelsky - votre sophrologue
+    </h3>
+    <div class="text-left">
+      <p>
+          Les événements douloureux, les soucis, les objectifs de performance, les obstacles que nous traversons dans la vie, sont inévitables...
+          <br>
+          Mais la manière dont nous allons mobiliser nos ressources face à ces difficultés est essentielle pour éviter les dégâts psychiques et physiques provoqués par le stress, la douleur, les souffrances et les soucis du quotidien.
+      </p>
+      <p class="bold">
+          Comment pouvons nous réagir face à ces événements ? Dans quelle mesure votre Sophrologue peut vous aider ?
+       </p>
+    </div>
+  </div>
+</div>
+
+<div class="home-2">
+    <div class="container">
+       <div class="row">
+         <div class="six columns">
+            <img src="<%= url_for 'images/relaxation.jpg' %>" alt="">
+         </div>
+         <div class="six columns">
+            <p>En apprenant à découvrir et à développer nos forces intérieures, calmer notre mental,  améliorer nos capacités créatives et accentuer notre potentiel de concentration grâce à la Sophrologie.
+            <br> <br>
+            Dans mon cabinet de Sophrologie à Paris 15, je me propose de vous accompagner avec bienveillance et professionnalisme, dans la découverte des méthodes efficaces, telles que la sophrologie, la cohérence cardiaque et la méditation, pour trouver des ressources en vous et apprendre à les mobiliser. Ceci vise à augmenter votre confiance personnelle pour être en phase avec vous-même et mieux vivre, tant avec soi qu' avec les autres.</p>
+         </div>
+       </div>
+    </div>
+</div>
+
+<div class="home-3">
+  <div class="container">
+    <div class="row">
+      <div class="six columns">
+        <% data.reviews.each do |r| %>
+          <h1> r.name </h1>
+        <% end %>
+      </div>
+      <div class="six columns">
+
+      </div>
+    </div>
+  </div>
 </div>
